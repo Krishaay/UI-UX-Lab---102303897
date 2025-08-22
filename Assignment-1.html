@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment-1 by Krishaay</title>
+    <style>
+        body {
+            background-color: aliceblue;
+            font-family: 'Times New Roman', Times, serif;
+            margin: 0;
+            padding: 0;
+        }
+        header.a1 {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 30px;
+            background-color: green;
+            color: white;
+            padding: 20px 0;
+            padding-bottom: 30px;
+        }
+        .a11 {
+            margin-bottom: 5px;
+        }
+        .split {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 40px;
+            margin-inline: 60px;
+        }
+        .a22 {
+            width: 600px;
+            height: auto;
+            text-align: justify;
+        }
+        .myimg {
+            width: 250px;
+            height: auto;
+            border-radius: 10px;
+        }
+        .edu{
+            margin-inline: 60px;
+        }
+        table.a3 {
+            border-collapse: collapse;
+            width: 60%;
+            margin-bottom: 40px;
+        }
+        table.a3 th, table.a3 td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center;
+        }
+        table.a3 th {
+            background-color: green;
+        }
+        .skills, .projects, .contact {
+            margin-bottom: 40px;
+            margin-inline: 60px;
+        }
+        footer {
+            background-color: green;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+        a {
+            color: green;
+            text-decoration: none;
+        }
+        a:hover {
+            opacity: 60%;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="a1">
+        <h1 class="a11">Krishaay's Profile</h1>
+        <div><em>Hello everyone, this is my portfolio</em></div>
+    </header>
+
+    <section class="split" id="about">
+        <p class="a22">
+            I am a <strong>3rd year B.E. student</strong> from Thapar University. I like working on creative projects. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui obcaecati molestias molestiae optio dolores excepturi repellendus quaerat explicabo odit unde, quia enim repudiandae praesentium totam sequi nulla voluptates hic itaque.
+        </p>
+        <img class="myimg" src="profile-img.jpg" alt="Profile photo of Krishaay" title="That's me!">
+    </section>
+
+    <section class="edu" id="education">
+        <h2>Education</h2>
+        <table class="a3">
+            <tr>
+                <th>Qualification</th>
+                <th>Year</th>
+            </tr>
+            <tr>
+                <td>10th</td>
+                <td>2021</td>
+            </tr>
+            <tr>
+                <td>12th</td>
+                <td>2023</td>
+            </tr>
+            <tr>
+                <td>B.E. in Computer Engineering</td>
+                <td>2023-2027</td>
+            </tr>
+        </table>
+    </section>
+
+    <section class="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>C, C++, Python, JavaScript</li>
+            <li>HTML & CSS</li>
+            <li>SQL</li>
+            <li>Git & GitHub</li>
+            <li>Adobe Photoshop</li>
+        </ul>
+    </section>
+
+    <section class="projects">
+        <h2>Projects</h2>
+        <ol>
+            <li>
+                <strong>Book Reccomendation System</strong> 
+                <div>Book Reccomendation System using LDA that has a database of over 5000+ books</div>
+            </li>
+            <li>
+                <strong>E-Commerce Website</strong> 
+                <div>An E-Commerce website with an sql database</div>
+            </li>
+            <li>
+                <strong>Web-Based Game</strong>
+                <div>Currently in progress</div>
+            </li>
+        </ol>
+    </section>
+
+    <section class="contact">
+        <h2>Contact</h2>
+        <p>Email: krishaay.s@gmail.com</p>
+        <p>
+            Connect with me: 
+            <a href="" target="_blank">LinkedIn</a> | 
+            <a href="https://github.com/Krishaay" target="_blank">GitHub</a>
+        </p>
+    </section>
+
+    <footer>
+        Made by <strong>Krishaay Sharma</strong>
+    </footer>
+</body>
+</html>
